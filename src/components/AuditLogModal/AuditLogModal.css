@@ -1,0 +1,100 @@
+.audit-modal {
+  max-width: 600px;
+}
+
+.audit-description {
+  padding: 0 24px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.audit-content {
+  padding: 24px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.audit-row {
+  display: flex;
+  gap: 16px;
+  border-left: 2px solid #605BFF;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+.audit-icon-wrap {
+  flex-shrink: 0;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.audit-icon {
+  width: 20px;
+  height: 20px;
+  color: #605BFF;
+}
+
+.audit-item-content {
+  flex: 1;
+  padding: 8px 0;
+}
+
+.audit-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.audit-action {
+  font-weight: 600;
+  color: #333333;
+  font-size: 14px;
+}
+
+.audit-timestamp {
+  font-size: 12px;
+  color: #666666;
+}
+
+.audit-actor {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 2px;
+}
+
+.audit-details {
+  font-size: 14px;
+  color: #333333;
+}
+
+.log-details {
+  color: #555555;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.log-details p {
+  margin: 4px 0;
+}
+
+.log-user {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #E9ECEF;
+  font-size: 12px;
+}
+
+.log-user strong {
+  color: #605BFF;
+}
+
+.loading-state,
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: #666666;
+}
+
